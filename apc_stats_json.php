@@ -1,3 +1,4 @@
+<?php
 /*
   +----------------------------------------------------------------------+
   | APC                                                                  |
@@ -34,7 +35,6 @@ if($_SERVER['REMOTE_ADDR'] != "127.0.0.1") {
     echo "Access restricted to localhost";
     exit;
 }
-
 
 $cache = apcu_cache_info();
 
